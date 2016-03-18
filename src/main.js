@@ -1,9 +1,5 @@
-var React = require('react');
+import React from 'react'
+import { render } from 'react-dom'
+import Todo from './components/Todo'
 
-var Hello = React.createClass({
-  render: function() {
-    return <div>Hello {this.props.name}</div>
-  }
-});
-
-React.render(<Hello name="cheft" />, document.body);
+render(<Todo />, document.getElementById('app'))

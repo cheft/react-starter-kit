@@ -7,7 +7,7 @@ a react starter kit, support hot reloading
     cd react-starter-kit
     npm install
     npm start
-    open http://localhost:3000
+    open http://localhost:4000
 
 ## Features
 
@@ -21,4 +21,3 @@ a react starter kit, support hot reloading
 * [ ] React-helmet to manage title and meta tag information on both server and client
 * [ ] Both client and server make calls to load data from separate API server, on same session
 * [ ] Mocha to allow writing unit tests for the project.
-
